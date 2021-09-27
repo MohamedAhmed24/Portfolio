@@ -33,14 +33,14 @@ p:last-child{
 h1, h2, h3 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-    color: #ff0022;
+    color: #000000;
 }
 
 h1 {
     font-size: 30px;
     line-height: 49px;
     padding-bottom: 20px;
-    border-bottom: 3px solid #0011ff;
+    border-bottom: 3px solid #000000;
 }
 
 h2, h3 { 
@@ -55,7 +55,7 @@ h2, h3 {
     overflow: auto;
     position: fixed;
     background: #fff;
-    border-bottom: 2px solid #1900ff;
+    border-bottom: 2px solid #000000;
 }
 
 #logo {
@@ -69,7 +69,7 @@ h2, h3 {
     font-size: 50px;
     text-decoration: none;
     background: #ffffff;
-    color: rgb(248, 2, 2);
+    color: rgb(0, 0, 0);
 }
 
 nav {
@@ -83,8 +83,8 @@ nav a{
     padding-left: 15px;
     text-decoration: none;
     line-height: 20px;
-    color: rgb(255, 0, 0);
-    border-left: 1px solid #1100ff;
+    color: rgb(0, 0, 0);
+    border-left: 1px solid #000000;
 }
 
 nav a:first-child {
@@ -105,7 +105,7 @@ nav a:first-child {
     margin: 0 auto ;
   margin-bottom: 5vh;
   margin-top: 5vh;
-    border: 1px solid rgb(59, 6, 250);
+    border: 1px solid rgb(0, 0, 0);
     background: rgb(253, 253, 253);
     overflow: hidden;
 }
@@ -156,41 +156,30 @@ nav a:first-child {
 #Work {
     width: 80vw ;
     margin-left: 10vw;
-    border: 1px solid rgb(42, 6, 247);
+    border: 1px solid rgb(0, 0, 0);
     padding-left: 5vw;
     margin-bottom: 5vh;
 }
 
-.fanpage {
-    display:grid;
-    
-    
-    justify-content: center;
-}
 
-.fanpage *{
-    justify-self: center;
-   
-    
-}
-.project1 {
+.project {
     width: 100%;
     display: grid;
     align-items: center;
 }
-.project1 h2{
+.project h2{
     text-transform: uppercase;
     letter-spacing: 3px;
     width: 100%;
     text-align: center;
 }
-.project1 .links {
+.project .links {
     display: flex;
     justify-content: space-around;
     width: 100%;
     text-underline-offset: 5px;
 }
-.project1 img {
+.project img {
     margin: 0 auto;
     padding: 2vh;
 }
